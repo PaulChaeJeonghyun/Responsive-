@@ -1,0 +1,51 @@
+body {
+   margin: 0;
+   font-family: 'Rubik', sans-serif;
+}
+
+a {
+text-decoration: none;
+color: azure;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #263343;
+   padding: 8px 12px;
+}
+
+.navbar__logo {
+   font-size: 24px;
+   color: azure;
+}
+
+.navbar__logo i {
+   color: tomato;
+}
+
+.navbar__menu {
+   display: flex;
+   list-style: none;
+   padding-left: 0;
+}
+
+.navbar__menu li {
+   padding: 8px 36px;
+}
+
+.navbar__menu li:hover {
+   background-color: tomato;
+   border-radius: 4px;
+}
+
+.navbar__icons {
+   list-style: none;
+   color: azure;
+   display: flex;
+}
+
+.navbar__icons li {
+   padding: 8px 12px;
+}
