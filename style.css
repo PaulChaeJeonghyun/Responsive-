@@ -51,7 +51,7 @@ color: azure;
    padding: 8px 12px;
 }
 
-.navbar__togleBtn {
+.navbar__toggleBtn {
    display: none;
    position: absolute;
    right: 32px;
@@ -84,7 +84,12 @@ color: azure;
       width: 100%;
    }
 
-   .navbar__togleBtn {
+   .navbar__toggleBtn {
       display: block;
+   }
+
+   .navbar__menu.active,
+   .navbar__icons.active {
+      display: flex;
    }
 }
